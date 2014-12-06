@@ -1,4 +1,4 @@
-package com.phunware.foregroundapplication;
+package cn.zhangxianli.foreground;
 
 import android.content.Intent;
 import android.support.v4.content.LocalBroadcastManager;
@@ -6,6 +6,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import cn.zhangxianli.foreground.R;
 
 
 public class MainActivity extends ActionBarActivity {

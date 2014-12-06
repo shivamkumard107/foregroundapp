@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.phunware.foregroundapplication" >
+    package="cn.zhangxianli.foreground" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.phunware.foregroundapplication.MainActivity"
+            android:name="cn.zhangxianli.foreground.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
         </activity>
 
         <receiver
-            android:name="com.phunware.foregroundapplication.MyReceiver"
+            android:name="cn.zhangxianli.foreground.MyReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
@@ -27,12 +27,12 @@
         </receiver>
 
         <service
-            android:name="com.phunware.foregroundapplication.MyIntentService"
+            android:name="cn.zhangxianli.foreground.MyIntentService"
             android:exported="false" >
         </service>
 
         <receiver
-            android:name="com.phunware.foregroundapplication.MyServcieReceiver"
+            android:name="cn.zhangxianli.foreground.MyServcieReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>

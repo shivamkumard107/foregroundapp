@@ -1,4 +1,4 @@
-package com.phunware.foregroundapplication;
+package cn.zhangxianli.foreground;
 
 import android.app.ActivityManager;
 import android.content.BroadcastReceiver;
